@@ -6,7 +6,6 @@ public class Experiente extends Motorista {
         this.notaMedia = 0;
     }
 
-    @Override
     public double calcularPagamento(double valorCorrida) {
         double pagamento = valorCorrida * 0.75;
         if (notaMedia > 4.6) {
