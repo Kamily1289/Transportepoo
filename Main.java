@@ -8,7 +8,7 @@ public class Main {
         Motorista elite1 = new Elite("Pedro");
         Motorista iniciante2 = new Iniciante("Ana");
         Motorista experiente2 = new Experiente("Carlos");
-
+//cadastro
         empresa.cadastrarMotorista(iniciante1);
         empresa.cadastrarMotorista(experiente1);
         empresa.cadastrarMotorista(elite1);
