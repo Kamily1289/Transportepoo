@@ -14,7 +14,6 @@ public class Main {
         empresa.cadastrarMotorista(iniciante2);
         empresa.cadastrarMotorista(experiente2);
 
-        // Adicionar corridas
         iniciante1.addCorrida(100);
         experiente1.addCorrida(150);
         elite1.addCorrida(230);
